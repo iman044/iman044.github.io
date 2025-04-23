@@ -1,8 +1,3 @@
-<!-- Add this inside the <body>, above the table or content -->
-<nav style="background-color: #333; padding: 10px;">
-    <a href="index.html" style="color: white; margin-right: 15px; text-decoration: none;">Home</a>
-    <a href="ethics.html" style="color: white; margin-right: 15px; text-decoration: none;">Ethics</a>
-</nav>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,22 +5,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iman Mamoon's GitHub Page</title>
     <style>
+        /* Body style */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4; /* Light background color */
+            color: #333; /* Dark text color for readability */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation bar style */
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin-right: 15px;
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        /* Navigation link hover effect */
+        nav a:hover {
+            background-color: #ddd;
+            color: #333;
+        }
+
+        /* Heading style */
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-top: 20px;
+            color: #333;
+        }
+
+        /* Table styling */
         table {
-            width: 100%;
+            width: 80%;
+            margin: 20px auto;
             border-collapse: collapse;
+            background-color: #ffffff;
         }
-        table, th, td {
-            border: 1px solid black;
-        }
+
         th, td {
-            padding: 8px;
+            padding: 12px;
             text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        /* Row hover effect */
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Footer style */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
- <h1>Welcome to My GitHub Page</h1>
 
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="ethics.html">Ethics</a>
+    </nav>
+
+    <!-- Page Heading -->
+    <h1>Welcome to My GitHub Page</h1>
+
+    <!-- Table with personal information -->
     <table>
         <tr>
             <th>Name</th>
@@ -40,6 +106,12 @@
             <td>Programming, making websites, and exploring new tech trends.</td>
         </tr>
     </table>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Iman Mamoon. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
 
